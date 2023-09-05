@@ -258,7 +258,7 @@ console.log(showCarInfo(car)) // Виведе { brand: 'BMW', year: 2022, countr
 // Створюємо функцію, яка буде додавати нову властивість до масиву
 function addProperty(array) {
   Array.prototype.customProperty = 'myProperty' // Додаємо нову властивість customProperty до прототипу Array зі значенням myProperty
-  return array.customProperty // Повертаємо переданий масив з новою властивістю
+  return array // Повертаємо переданий масив з новою властивістю
 }
 
 console.log(
